@@ -1,9 +1,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Michelle Wang's Site
+title: Michelle Wang | Data Science Blog
 description: >- # this means to ignore newlines until "baseurl:"
-  Bay is a minimal Jekyll Theme.  
+  Michelle Wang's Github Blog  
 baseurl: "" # the subpath of the site
 url: "https://michelle-wms.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
@@ -13,32 +13,22 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Work
+    - name: Words
     - name: Portfolio
 
 footer:
-  show_powered_by: true
+  # show_powered_by: true
   contact:
     - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
-    - name: WeChat
-      value: YourWeChatUsername
-      link: "#"
+      value: mozzerellanu@gmail.com
+      link: mailto:mozzerellanu@gmail.com
+
   follow:
-    - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
     - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: https://www.linkedin.com/in/michelle-w-5a2b6317/
     - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - name: RSS
-      link: /feed.xml
+      link: https://github.com/michelle-wms
+  
 
 # Build settings
 markdown: kramdown
