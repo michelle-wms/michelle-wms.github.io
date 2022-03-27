@@ -15,15 +15,15 @@
               {% include draft-banner.html %}
             {% endif %}
 
-            <h1 class="post-title">
+            <h3 class="post-title">
             {% if page.headline_formatted_title %}
               {{ page.headline_formatted_title | newline_to_br }}
             {% else %}
               {{ page.title }}
             {% endif %}
-            </h1>
+            </h3>
 
-            {% if page.subtitle %}<h1 class="post-subtitle">{{ page.subtitle }}</h1>{% endif %}
+            {% if page.subtitle %}<h3 class="post-subtitle">{{ page.subtitle }}</h3>{% endif %}
             <p class="post-meta"><span class="post-date">{{ page.date | date: "%B %-d, %Y" }}
             </span>{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
           </header>
