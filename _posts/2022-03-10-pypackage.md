@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "EDA Python & R Package Development"
+title:  "Python & R Package Development"
 #date:   2022-03-01 10:00:40
 blurb: "Spotify app post"
 # og_image: /assets/img/content/post-example/Banner.jpg
@@ -16,14 +16,13 @@ The Python app is called [numeric_edahelper](https://pypi.org/project/numeric-ed
 
 <br />
 
-
 ### Components of the package
 
-1. [Package functions](#package-functions)
-2. [Testing](#testing)
-3. [Continuous Development and Integration](#3-combining-plots-with-widgets)
-4. [Bootstrap Components and Layouts](#4-bootstrap-components-and-layouts)
-
+1. [Package functions](#1-package-functions)
+2. [Testing](#2-testing)
+3. [Continuous Integration and Deployment](#3-continuous-integration-and-deployment)
+4. [Publishing and documentation](#4-publishing-and-documentation)
+5. [Conclusions](#5-conclusions)
 
 #### 1. Package functions
 The overall idea of the package is to provide nifty functions that can be called with just a couple of arguments like inputting a dataframe or a series/vector. And we would have four functions that belong to this one package, under the name `numeric_edahelper`. These four functions were suggested by me as I felt that some EDA processes could be better streamlined and made into just a simple function which can be easily called again and again, without repeating code or copying/pasting. These were: outlier detection, highly correlated variables, and missing values, description. The first two were more interesting, since they're more open-ended and are slightly more complicated to code.
