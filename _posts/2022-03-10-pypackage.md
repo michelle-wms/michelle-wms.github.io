@@ -6,7 +6,7 @@ blurb: "Spotify app post"
 # og_image: /assets/img/content/post-example/Banner.jpg
 ---
 
-<img src="{{"/assets/img/content/post-example/pypackage.png" | absolute_url }}" alt="bay" width="350" height="350" class="post-pic"/>
+<img src="{{"/assets/img/content/post-example/pypackage.PNG" | absolute_url }}" alt="pkg" width="350" height="350" class="post-pic"/>
 <br />
 <br />
 
