@@ -1,6 +1,6 @@
 ---
 layout: work
-title: DS Words of the Day
+title: DS Words of the Month
 slug: /words
 items:
   - title: Collaborative filtering
@@ -16,6 +16,6 @@ items:
 
 ---
 
-A bunch of data science terms, their meanings and real-life applications. Weekly refreshed.
+A bunch of data science terms, their meanings and real-life applications.
 <br />
 <br />
